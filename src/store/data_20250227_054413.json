@@ -1,0 +1,1305 @@
+[
+    {
+        "company": "naver",
+        "title": "[NAVER] XR 및 동영상 에디터/플레이어 개발(경력)",
+        "techTags": [
+            "Java",
+            "C#",
+            "C++",
+            "Swift",
+            "Kotlin",
+            "GitHub Actions",
+            "Jenkins",
+            "SwiftUI",
+            "Jetpack Compose",
+            "CLIP"
+        ],
+        "dueDate": "2025.02.20 ~ 2025.03.04 (18:00)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003065"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] Robot Software & System Development (인턴십)",
+        "techTags": [
+            "Python",
+            "C++",
+            "Unity"
+        ],
+        "dueDate": "2025.02.05 ~ 2025.02.28 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30002956"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] Robotics & Deep Learning Research (인턴십)",
+        "techTags": [
+            "Python",
+            "C++",
+            "Unity"
+        ],
+        "dueDate": "2025.02.05 ~ 2025.02.28 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30002955"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버페이] 월렛 서비스 BE 개발",
+        "techTags": [
+            "Java",
+            "Go",
+            "Kotlin",
+            "Spring Boot",
+            "Gin",
+            "MySQL",
+            "MongoDB",
+            "Elasticsearch",
+            "Kubernetes",
+            "Kafka",
+            "Nginx"
+        ],
+        "dueDate": "2025.01.03 ~ 2025.03.02 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30002837"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] Robot OS Backend Engineer",
+        "techTags": [
+            "C++",
+            "Go",
+            "Rust",
+            "Gin",
+            "Docker",
+            "Kafka",
+            "gRPC",
+            "MQTT"
+        ],
+        "dueDate": "2025.02.18 ~ 2025.03.04 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003053"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] Deep Learning & Robotics Research Engineer",
+        "techTags": [
+            "Python",
+            "C++",
+            "Gin"
+        ],
+        "dueDate": "2025.02.18 ~ 2025.03.04 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003059"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] Machine Learning Engineer for Robot Control",
+        "techTags": [
+            "Python",
+            "C++",
+            "Gin"
+        ],
+        "dueDate": "2025.02.12 ~ 2025.03.04 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003034"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] AI/ML Computer Vision Research Engineer",
+        "techTags": [
+            "Python",
+            "C++",
+            "Gin"
+        ],
+        "dueDate": "2025.02.04 ~ 2025.03.04 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30002962"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] 3D Vision Research Engineer",
+        "techTags": [
+            "Python",
+            "C++",
+            "Gin"
+        ],
+        "dueDate": "2025.02.04 ~ 2025.03.04 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30002961"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] Computer Vision & 3D Vision Research Engineer",
+        "techTags": [
+            "Go",
+            "Gin"
+        ],
+        "dueDate": "2025.02.04 ~ 2025.03.04 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30002875"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] Computer Vision & 3D Recon. Research Engineer",
+        "techTags": [
+            "Python",
+            "C++",
+            "Gin"
+        ],
+        "dueDate": "2025.02.04 ~ 2025.03.04 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30002082"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버웹툰] 웹툰 커뮤니티 플랫폼 Back-End 개발 (경력)",
+        "techTags": [
+            "Java",
+            "Go",
+            "Kotlin",
+            "MongoDB",
+            "Cassandra",
+            "Redis",
+            "Elasticsearch"
+        ],
+        "dueDate": "2025.02.07 ~ 2025.03.04 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30002996"
+    },
+    {
+        "company": "naver",
+        "title": "[NAVER Cloud] 데이터센터 구축/운영 담당 (경력)",
+        "techTags": [
+            "Gin"
+        ],
+        "dueDate": "2025.02.17 ~ 2025.03.04 (17:00)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003032"
+    },
+    {
+        "company": "naver",
+        "title": "[NAVER Cloud] IT 협업도구 시스템 운영/관리 담당자 (경력)",
+        "techTags": [
+            "JavaScript",
+            "Java",
+            "Gin"
+        ],
+        "dueDate": "2025.02.19 ~ 2025.03.07 (17:00)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003061"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버웹툰] Data Engineer (경력)",
+        "techTags": [
+            "Python",
+            "Java",
+            "React",
+            "Gin",
+            "Kubernetes",
+            "Hadoop",
+            "Trino"
+        ],
+        "dueDate": "2025.02.12 ~ 2025.03.09 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003020"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버랩스] Research Engineer for Autonomous Driving (인턴십/자율주행)",
+        "techTags": [
+            "Python",
+            "C++",
+            "Gin"
+        ],
+        "dueDate": "2025.02.25 ~ 2025.03.11 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003112"
+    },
+    {
+        "company": "naver",
+        "title": "[네이버웹툰] Anti-Abusing Engineer (경력)",
+        "techTags": [
+            "Python",
+            "Gin",
+            "MySQL",
+            "Hadoop"
+        ],
+        "dueDate": "2025.02.12 ~ 2025.03.12 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30002929"
+    },
+    {
+        "company": "naver",
+        "title": "[NAVER Cloud] 클라우드 서비스 개발 PM (경력)",
+        "techTags": [
+            "Spring Boot",
+            "Gin",
+            "Redis",
+            "Kafka",
+            "Nginx"
+        ],
+        "dueDate": "2025.02.21 ~ 2025.03.14 (17:00)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003070"
+    },
+    {
+        "company": "naver",
+        "title": "[SNOW] 데이터 엔지니어",
+        "techTags": [
+            "Java",
+            "Spring Boot",
+            "Gin",
+            "AWS",
+            "Azure",
+            "Docker",
+            "Kubernetes",
+            "Hadoop",
+            "Druid",
+            "Presto"
+        ],
+        "dueDate": "2025.02.11 ~ 2025.03.16 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003026"
+    },
+    {
+        "company": "naver",
+        "title": "[SNOW] Data Scientist",
+        "techTags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "Hadoop"
+        ],
+        "dueDate": "2025.02.19 ~ 2025.03.18 (23:59)",
+        "link": "https://recruit.navercorp.com/rcrt/view.do?annoId=30003063"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오모빌리티 머신러닝 엔지니어 경력직 채용(R&D)",
+        "techTags": [
+            "Python",
+            "C++"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4306"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오모빌리티 백엔드 개발자(T플랫폼 개발)",
+        "techTags": [
+            "Java",
+            "Kotlin",
+            "Docker",
+            "Kubernetes"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4299"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 DB내부 플랫폼 개발 및 DB운영 - DB팀",
+        "techTags": [
+            "Go",
+            "MySQL",
+            "MongoDB",
+            "AWS",
+            "Azure",
+            "Ansible"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4291"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 DevOps 개발자 - DevOps팀(리더급)",
+        "techTags": [
+            "Elasticsearch",
+            "Kubernetes",
+            "Terraform",
+            "Ansible",
+            "Istio"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4293"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 DevOps 개발자 - DevOps팀",
+        "techTags": [
+            "Elasticsearch",
+            "Kubernetes",
+            "Terraform",
+            "Ansible",
+            "Istio"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4292"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 채용연계형 개발자 인턴십 모집 - Back-End 개발자",
+        "techTags": [
+            "Java",
+            "Kotlin"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4294"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 데이터플랫폼 엔지니어 - 하둡플랫폼파트",
+        "techTags": [
+            "Python",
+            "Java",
+            "Hadoop",
+            "Trino"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4303"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오모빌리티 백엔드 개발자(자율주행차량 플랫폼)",
+        "techTags": [
+            "Java",
+            "Go",
+            "Kotlin",
+            "AWS"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4298"
+    },
+    {
+        "company": "kakao",
+        "title": "인증 서비스 서버 개발자 (경력)",
+        "techTags": [
+            "Java",
+            "Kotlin",
+            "Kubernetes"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/P-13944"
+    },
+    {
+        "company": "kakao",
+        "title": "비즈앱 iOS 개발자 (경력)",
+        "techTags": [
+            "Swift",
+            "SwiftUI"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/P-13945"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오게임즈 게임 기술PM 영입",
+        "techTags": [
+            "Python",
+            "Gin",
+            "AWS"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4295"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오모빌리티 데이터분석가(Data Analyst)",
+        "techTags": [
+            "Python"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4224"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오모빌리티 백엔드 개발자(택시 서비스)",
+        "techTags": [
+            "Java"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4284"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오모빌리티 Flutter 개발자 (k.ride)",
+        "techTags": [
+            "Flutter"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4283"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오모빌리티 데이터 사이언티스트",
+        "techTags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4276"
+    },
+    {
+        "company": "kakao",
+        "title": "IT 서비스 안정성 관리 담당자 (경력)",
+        "techTags": [],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/P-13914"
+    },
+    {
+        "company": "kakao",
+        "title": "Technical Writer (카카오 사내 기술 문서 작성)",
+        "techTags": [],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/P-13943"
+    },
+    {
+        "company": "kakao",
+        "title": "대규모 실시간 유저 활동 데이터 서빙 시스템(ActionBase) 개발 (경력)",
+        "techTags": [
+            "Java",
+            "Kotlin",
+            "MySQL",
+            "Elasticsearch",
+            "Kubernetes",
+            "Kafka",
+            "Apache Spark",
+            "Hadoop"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/P-13900"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오게임즈 서비스 개발자(FE/BE)",
+        "techTags": [
+            "Java",
+            "Spring Boot",
+            "AWS"
+        ],
+        "dueDate": "2025년 03월 06일 00:00까지",
+        "link": "https://careers.kakao.com/jobs/S-4290"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오모빌리티 미들마일 물류 플랫폼 백엔드 개발자",
+        "techTags": [
+            "Java",
+            "Kotlin",
+            "Spring Boot",
+            "Redis",
+            "Docker",
+            "Kubernetes",
+            "Kafka",
+            "REST API"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4289"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오게임즈 플랫폼 개발자 영입",
+        "techTags": [
+            "Java",
+            "React",
+            "Vue.js",
+            "Angular",
+            "Redis",
+            "AWS",
+            "Azure"
+        ],
+        "dueDate": "2025년 02월 27일 00:00까지",
+        "link": "https://careers.kakao.com/jobs/S-4288"
+    },
+    {
+        "company": "kakao",
+        "title": "서비스/플랫폼 QA 담당자 (경력)",
+        "techTags": [
+            "Python",
+            "JavaScript",
+            "Java"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/P-13744"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오헬스케어 데이터 엔지니어",
+        "techTags": [
+            "Python",
+            "Hadoop"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4281"
+    },
+    {
+        "company": "kakao",
+        "title": "카카오톡 macOS 플랫폼 개발자(경력)",
+        "techTags": [
+            "Swift"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/P-13886"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오헬스케어 Back-End 개발자",
+        "techTags": [
+            "Python",
+            "Java",
+            "FastAPI",
+            "REST API"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4231"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 카카오클라우드 MySQL 엔지니어 영입",
+        "techTags": [
+            "Python",
+            "Go",
+            "MySQL"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4207"
+    },
+    {
+        "company": "kakao",
+        "title": "DKOS(Kubernetes as a Service) 개발자 (경력)",
+        "techTags": [
+            "Go",
+            "React",
+            "Gin",
+            "Kubernetes",
+            "Ansible",
+            "REST API"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/P-13639"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오모빌리티 데이터 사이언티스트",
+        "techTags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4206"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오헬스케어 iOS 개발자",
+        "techTags": [
+            "Swift",
+            "React"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4204"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오헬스케어 백엔드(Java, Spring) 개발자",
+        "techTags": [
+            "Spring Boot",
+            "Docker",
+            "Kubernetes"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4203"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 데이터 사이언티스트 - 데이터기술팀",
+        "techTags": [
+            "Python"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4196"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 데이터 엔지니어 - DW / BI 시스템 개발",
+        "techTags": [
+            "Python",
+            "Java",
+            "Hadoop"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4189"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 데이터 엔지니어 - 데이터플랫폼팀",
+        "techTags": [
+            "Go",
+            "MongoDB",
+            "Kafka",
+            "Hadoop",
+            "Druid"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4188"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 시니어 데이터 분석가 - 데이터분석팀",
+        "techTags": [
+            "Python"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4187"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 KakaoCloud 보안 기술지원 엔지니어",
+        "techTags": [],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4179"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 KakaoCloud 기술지원 엔지니어",
+        "techTags": [
+            "AWS",
+            "Azure"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4178"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 Cloud Service QA 엔지니어",
+        "techTags": [
+            "AWS",
+            "Azure",
+            "Docker",
+            "Kubernetes",
+            "Terraform",
+            "Ansible"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4177"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 CI/CD 서비스 개발자",
+        "techTags": [
+            "Java",
+            "Go",
+            "Spring Boot",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Kubernetes",
+            "Helm",
+            "ArgoCD"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4176"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 데이터 응용 플랫폼 개발자",
+        "techTags": [
+            "Java",
+            "Kotlin",
+            "React",
+            "Vue.js",
+            "Spring Boot",
+            "Redis",
+            "Docker",
+            "Kubernetes",
+            "Helm",
+            "GitHub Actions",
+            "Jenkins",
+            "Kafka",
+            "Trino"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4175"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 Kubernetes Engine 개발자",
+        "techTags": [
+            "Go",
+            "Gin",
+            "AWS",
+            "Kubernetes"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4174"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 스토리지 플랫폼 개발자",
+        "techTags": [
+            "AWS",
+            "Azure",
+            "Docker"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4173"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 클라우드 네트워크 엔지니어",
+        "techTags": [
+            "AWS",
+            "Azure"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4172"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 NoSQL 엔지니어",
+        "techTags": [
+            "Python",
+            "Go",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Kubernetes"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4171"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 클라우드 Managed 서비스 엔지니어",
+        "techTags": [
+            "Python",
+            "Go",
+            "Gin",
+            "Elasticsearch",
+            "Ansible",
+            "Prometheus",
+            "Grafana",
+            "Kafka",
+            "RabbitMQ",
+            "Nginx"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4170"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오엔터프라이즈 KakaoCloud 시스템 엔지니어 영입 ",
+        "techTags": [
+            "Python",
+            "Go",
+            "AWS",
+            "Azure",
+            "Kubernetes"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4169"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 ML 엔지니어 - 이상거래탐지개발팀",
+        "techTags": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Hadoop"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4151"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 DevOps 개발자 - DevOps팀",
+        "techTags": [
+            "Elasticsearch",
+            "Kubernetes",
+            "Terraform",
+            "Ansible",
+            "Istio"
+        ],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4110"
+    },
+    {
+        "company": "kakao",
+        "title": "[공동체] 카카오페이 보안 엔지니어 - 취약점 분석 및 모의해킹 담당자",
+        "techTags": [],
+        "dueDate": "영입종료시",
+        "link": "https://careers.kakao.com/jobs/S-4105"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Music - Android Engineer",
+        "techTags": [
+            "Java",
+            "Kotlin"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2330"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Music - Junior Backend Engineer",
+        "techTags": [
+            "Java",
+            "Kotlin",
+            "Kubernetes"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2536"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Demaecan - Backend Server Engineer (Retail)",
+        "techTags": [
+            "Java",
+            "Go",
+            "Kotlin",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Kubernetes",
+            "GitHub Actions",
+            "ArgoCD",
+            "Kafka",
+            "gRPC"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2532"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE VOOM Web Frontend Engineer",
+        "techTags": [
+            "JavaScript",
+            "Java",
+            "React",
+            "Node.js",
+            "Gin"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2529"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Social Platform Site Reliability Engineer (Serivce Operation Engineer)",
+        "techTags": [
+            "Java",
+            "Go",
+            "MySQL",
+            "MongoDB",
+            "Cassandra",
+            "Redis",
+            "Kubernetes",
+            "Ansible",
+            "Helm",
+            "GitHub Actions",
+            "ArgoCD",
+            "Prometheus",
+            "Grafana"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2527"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Pay Network Engineer",
+        "techTags": [],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2519"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Pay System Engineer",
+        "techTags": [
+            "Elasticsearch",
+            "Ansible",
+            "Prometheus"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2518"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Social Platform Data Engineer",
+        "techTags": [
+            "Gin",
+            "Hadoop"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2516"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Financial System Developer",
+        "techTags": [
+            "JavaScript",
+            "TypeScript",
+            "Java",
+            "Node.js"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2506"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Backend Software Engineer (Observability Engineering)",
+        "techTags": [
+            "Java",
+            "Go",
+            "Rust",
+            "Kotlin",
+            "Cassandra",
+            "Elasticsearch",
+            "Kubernetes",
+            "Prometheus",
+            "Grafana",
+            "Datadog",
+            "New Relic",
+            "Splunk",
+            "OpenTelemetry",
+            "Kafka"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2267"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Ads - Web Front-end Engineer",
+        "techTags": [
+            "JavaScript",
+            "TypeScript",
+            "Java",
+            "React",
+            "Vue.js",
+            "Angular",
+            "GitHub Actions"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2501"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Live Platform - Backend Server Engineer\t",
+        "techTags": [
+            "Python",
+            "Java",
+            "Kotlin",
+            "Spring Boot",
+            "Gin"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2499"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Ads - ML Engineer",
+        "techTags": [
+            "Python",
+            "C++",
+            "Go",
+            "Gin"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2448"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Database DevOps Engineer",
+        "techTags": [
+            "Python",
+            "Java",
+            "Go",
+            "MySQL",
+            "InfluxDB",
+            "Ansible",
+            "Prometheus",
+            "OpenTelemetry",
+            "Kafka"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2467"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Messaging Platform Data Engineer",
+        "techTags": [
+            "Python",
+            "Kafka",
+            "Hadoop"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2462"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Network Security Engineer",
+        "techTags": [
+            "Python",
+            "Gin"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2460"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Messenger Android Engineer",
+        "techTags": [
+            "Java",
+            "Kotlin",
+            "Gin"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2457"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Security Research Engineer",
+        "techTags": [
+            "Python",
+            "JavaScript",
+            "Java",
+            "C++"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2455"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Game Platform SDK Client Engineer",
+        "techTags": [
+            "Java",
+            "C#",
+            "C++",
+            "Go",
+            "Kotlin",
+            "Gin",
+            "Jenkins",
+            "Unity"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2444"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Contents Service Front-End Engineer",
+        "techTags": [
+            "JavaScript",
+            "TypeScript",
+            "Java",
+            "React",
+            "Next.js",
+            "Nuxt.js",
+            "GitHub Actions"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2439"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Site Reliability Engineer (Performance Optimization Engineer)",
+        "techTags": [
+            "Java",
+            "Go",
+            "MySQL",
+            "Redis",
+            "Docker",
+            "Kubernetes",
+            "Terraform",
+            "GitHub Actions",
+            "Jenkins",
+            "ArgoCD",
+            "Prometheus",
+            "Grafana"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2432"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Backend Software Engineer",
+        "techTags": [
+            "Java",
+            "Go",
+            "Kotlin",
+            "Spring Boot",
+            "MongoDB",
+            "Redis",
+            "Elasticsearch"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2430"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Senior Technical Program Manager",
+        "techTags": [],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2425"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Game Platform Frontend Engineer",
+        "techTags": [
+            "JavaScript",
+            "Java",
+            "Node.js",
+            "Jenkins"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2427"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Music - Senior ML/DL Engineer",
+        "techTags": [
+            "Python",
+            "Gin",
+            "Elasticsearch",
+            "TensorFlow",
+            "PyTorch",
+            "Hadoop"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2423"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Game Platform Server Engineer",
+        "techTags": [
+            "Python",
+            "Java",
+            "Go",
+            "Kotlin",
+            "Spring Boot",
+            "Gin",
+            "Redis",
+            "Elasticsearch",
+            "Kafka"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2416"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | HBase Engineer",
+        "techTags": [
+            "Python",
+            "JavaScript",
+            "Java",
+            "React",
+            "Gin",
+            "Kubernetes",
+            "Hadoop"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2414"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Video Platform - Backend Server Engineer",
+        "techTags": [
+            "Python",
+            "Java",
+            "Kotlin",
+            "Spring Boot",
+            "Gin"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2411"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Cloud Service Engineer",
+        "techTags": [
+            "Python",
+            "Go",
+            "MongoDB",
+            "Redis",
+            "Elasticsearch"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2413"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Data Platform Kubernetes Engineer",
+        "techTags": [
+            "Python",
+            "Go",
+            "Gin",
+            "Kubernetes"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2397"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | Corporate Information Systems Developer (사내정보시스템)",
+        "techTags": [
+            "JavaScript",
+            "Java",
+            "MySQL",
+            "Redis",
+            "REST API"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2376"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | HR System Developer",
+        "techTags": [
+            "JavaScript",
+            "Java",
+            "MySQL"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2373"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | MongoDB Engineer",
+        "techTags": [
+            "Python",
+            "Go",
+            "Gin",
+            "MongoDB",
+            "Ansible"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2383"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Messaging Server Engineer",
+        "techTags": [
+            "Python",
+            "Java",
+            "C++",
+            "Go",
+            "Gin",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Elasticsearch",
+            "Kafka",
+            "Hadoop"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2209"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Pay Server Engineer",
+        "techTags": [
+            "Java",
+            "Go",
+            "Kotlin",
+            "Spring Boot",
+            "Gin",
+            "MongoDB",
+            "Redis"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2359"
+    },
+    {
+        "company": "line",
+        "title": "LINE CAREERS | LINE Ads - QA Engineer",
+        "techTags": [
+            "Jenkins"
+        ],
+        "dueDate": "상시모집",
+        "link": "https://careers.linecorp.com/ko/jobs/2357"
+    }
+]

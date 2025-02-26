@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 import requests
-from crawl.modules.keywords import tech_stack, job_keywords
+from crawl.modules.keywords import tech_stack
 from bs4 import BeautifulSoup
 
 

@@ -17,8 +17,6 @@ def naver_crawl():
     url = "https://recruit.navercorp.com/rcrt/list.do?srchClassCd=1000000&lang=ko"
     driver.execute_script(f"window.location.href=\"{url}\"")
 
-
-
     # 스크롤 실행
     last_height = driver.execute_script("return document.body.scrollHeight")
 
