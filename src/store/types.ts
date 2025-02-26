@@ -1,7 +1,7 @@
 export type Job = {
   company: string;
   title: string;
-  jobTags: string[];
+  jobTag: string;
   techTags: string[];
   dueDate: string;
   link: string;
