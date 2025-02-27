@@ -7,7 +7,10 @@ import { css } from "@emotion/react";
 import { unselectable } from "@src/util";
 import ThemeToggle from "@src/components/ThemeToggle";
 import { FilterAlt } from "@mui/icons-material";
-import MainPage from "@src/MainPage";
+import MainPage from "@src/components/MainPage";
+import SearchBar from "@src/components/SearchBar";
+import CompanySelector from "@src/components/CompanySelector";
+import TagSelector from "@src/components/TagSelector";
 
 const lightTheme = createTheme({
   palette: {
@@ -63,6 +66,7 @@ function App() {
   const [filterOpen, setFilterOpen] = useState(false);
   const resize = () => {
     rootStore.setWidth(window.innerWidth);
+    rootStore.setHeight(window.innerHeight);
   };
 
   useEffect(() => {
@@ -173,27 +177,7 @@ function App() {
             </div>
           </div>
         </div>
-        {filterOpen && (
-          <>
-            <Divider
-              css={css`
-                width: 100%;
-              `}
-            />
-            <div
-              css={css`
-                background-color: var(--paper);
-                width: 100%;
-                height: 120px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-              `}
-            >
-              asd
-            </div>
-          </>
-        )}
+
         <Divider
           css={css`
             width: 100%;
@@ -202,16 +186,40 @@ function App() {
         <div
           css={css`
             position: absolute;
-            top: ${filterOpen ? 170 : 49}px;
+            top: 49px;
             width: 100%;
-            height: calc(100vh - ${filterOpen ? 170 : 49}px);
-            overflow: auto;
+            height: calc(100% - 49px);
             display: flex;
             flex-direction: column;
             align-items: center;
             ${unselectable}
           `}
         >
+          {filterOpen && (
+            <>
+              <div
+                css={css`
+                  background-color: var(--paper);
+                  width: 100%;
+                  padding: 10px 0px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  gap: 10px;
+                `}
+              >
+                <SearchBar />
+                <CompanySelector />
+                <TagSelector />
+              </div>
+
+              <Divider
+                css={css`
+                  width: 100%;
+                `}
+              />
+            </>
+          )}
           <MainPage />
         </div>
       </>

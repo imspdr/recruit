@@ -1,20 +1,83 @@
 import { runInAction, makeAutoObservable } from "mobx";
-import { Job } from "./types";
-import jobs from "./jobs.json";
+import { Job, Company, Tag, COMPANYS } from "./types";
+import jobs from "./data.json";
 
 export class RootStore {
   width: number;
+  height: number;
   wholeJobs: Job[];
+  searchText: string;
+  selectedTags: Tag[];
+  selectedCompanies: Company[];
 
   constructor() {
-    this.width = 300;
+    this.width = 1000;
+    this.height = 1000;
     this.wholeJobs = jobs;
+    this.searchText = "";
+    this.selectedTags = [];
+    this.selectedCompanies = COMPANYS;
     makeAutoObservable(this);
   }
+
+  getJobs = () => {
+    return this.wholeJobs.filter((job: Job) => {
+      return (
+        job.title
+          .toLowerCase()
+          .includes(this.searchText.replace(/[^\uAC00-\uD7A3a-zA-Z0-9\s]/g, "").toLowerCase()) &&
+        this.selectedCompanies.includes(job.company) &&
+        (this.selectedTags.length == 0 ||
+          (function (tags: Tag[], compareTags: Tag[]) {
+            for (let i = 0; i < tags.length; i++) {
+              if (compareTags.includes(tags[i]!)) {
+                return true;
+              }
+            }
+            return false;
+          })(this.selectedTags, job.techTags))
+      );
+    });
+  };
 
   setWidth = (width: number) => {
     runInAction(() => {
       this.width = width;
+    });
+  };
+  setHeight = (height: number) => {
+    runInAction(() => {
+      this.height = height;
+    });
+  };
+
+  setSearchText = (text: string) => {
+    runInAction(() => {
+      this.searchText = text;
+    });
+  };
+
+  addTag = (tag: Tag) => {
+    runInAction(() => {
+      if (!this.selectedTags.includes(tag)) {
+        this.selectedTags = [...this.selectedTags, tag];
+      }
+    });
+  };
+
+  removeTag = (givenTag: Tag) => {
+    runInAction(() => {
+      this.selectedTags = this.selectedTags.filter((tag) => tag != givenTag);
+    });
+  };
+
+  toggleCompany = (company: Company) => {
+    runInAction(() => {
+      if (!this.selectedCompanies.includes(company)) {
+        this.selectedCompanies = [...this.selectedCompanies, company];
+      } else {
+        this.selectedCompanies = this.selectedCompanies.filter((com) => com != company);
+      }
     });
   };
 }

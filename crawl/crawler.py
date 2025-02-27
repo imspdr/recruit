@@ -18,7 +18,7 @@ for ret in line_crawl():
     last_result.append(ret)
 
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-filename = f"data_{timestamp}.json"
+filename = "data.json"
 
 with open(os.path.join("../src/store/", filename), "w", encoding="utf-8") as f:
     json.dump(last_result, f, ensure_ascii=False, indent=4)
