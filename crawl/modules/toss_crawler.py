@@ -19,15 +19,12 @@ def toss_crawl():
 
     list_jobs = soup.find("div", class_="css-16ht878")
     job_divs = list_jobs.find_all("div")
-
-    job_ids = []
-
+    print(job_divs)
     ret = []
     for job in job_divs:
         href_job = job.get("href")
         if href_job:
             try:
-                job_ids.append(href_job)
                 detail_url = f"https://toss.im{href_job}"
                 title = job.find("span", class_="typography typography--h5 typography--bold color--grey700").text
 
