@@ -18,7 +18,7 @@ def line_crawl():
     # 크롤링할 웹사이트 열기
     url = "https://careers.linecorp.com/ko/jobs?ca=Engineering&ci=Gwacheon,Bundang,Seoul&co=East%20Asia"
     driver.execute_script(f"window.location.href=\"{url}\"")
-    time.sleep(1)
+    time.sleep(0.1)
     html = driver.page_source
     driver.quit()
     soup = BeautifulSoup(html, "html.parser")

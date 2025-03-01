@@ -167,7 +167,6 @@ function App() {
               <IconButton
                 onClick={() => setFilterOpen((v) => !v)}
                 css={css`
-                  background-color: ${filterOpen ? "var(--background)" : "var(--paper)"};
                   margin: 5px;
                 `}
               >

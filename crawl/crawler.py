@@ -1,6 +1,8 @@
 from crawl.modules.naver_crawler import naver_crawl
 from crawl.modules.kakao_crawler import kakao_crawl
 from crawl.modules.line_crawler import line_crawl
+from crawl.modules.coupang_crawler import coupang_crawl
+from crawl.modules.baemin_crawler import baemin_crawl
 
 import json
 import os
@@ -17,7 +19,15 @@ for ret in kakao_crawl():
 for ret in line_crawl():
     last_result.append(ret)
 
-timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+for ret in coupang_crawl():
+    last_result.append(ret)
+
+for ret in baemin_crawl():
+    last_result.append(ret)
+
+
+
+
 filename = "data.json"
 
 with open(os.path.join("../src/store/", filename), "w", encoding="utf-8") as f:

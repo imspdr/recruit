@@ -19,7 +19,7 @@ def kakao_crawl():
     job_ids = []
     for i in range(1, 5):
         driver.execute_script(f"window.location.href=\"{url + str(i)}\"")
-        time.sleep(1)
+        time.sleep(0.1)
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
         list_jobs = soup.find("ul", class_="list_jobs")
@@ -35,7 +35,7 @@ def kakao_crawl():
         detail_url = f"https://careers.kakao.com/jobs/{id}"
 
         driver.execute_script(f"window.location.href=\"{detail_url}\"")
-        time.sleep(1)
+        time.sleep(0.1)
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
         title = soup.find("strong", class_="tit_jobs")
