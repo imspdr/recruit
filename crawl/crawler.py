@@ -38,7 +38,7 @@ filename = "data.json"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-store_path = os.path.join(BASE_DIR, "../src/store/data.json")
+store_path = os.path.join(BASE_DIR, "../src/store/")
 
 with open(os.path.join(store_path, filename), "w", encoding="utf-8") as f:
     json.dump(last_result, f, ensure_ascii=False, indent=4)
