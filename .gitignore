@@ -1,3 +1,4 @@
 .vscode
 !.gitkeep
 .venv
+__pycache__/
