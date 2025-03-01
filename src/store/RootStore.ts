@@ -1,5 +1,5 @@
 import { runInAction, makeAutoObservable } from "mobx";
-import { Job, Company, Tag, COMPANYS } from "./types";
+import { Job, Company, COMPANYS } from "./types";
 import jobs from "./data.json";
 
 export class RootStore {
@@ -7,7 +7,7 @@ export class RootStore {
   height: number;
   wholeJobs: Job[];
   searchText: string;
-  selectedTags: Tag[];
+  // selectedTags: Tag[];
   selectedCompanies: Company[];
 
   constructor() {
@@ -15,7 +15,7 @@ export class RootStore {
     this.height = 1000;
     this.wholeJobs = jobs;
     this.searchText = "";
-    this.selectedTags = [];
+    // this.selectedTags = [];
     this.selectedCompanies = COMPANYS;
     makeAutoObservable(this);
   }
@@ -26,16 +26,7 @@ export class RootStore {
         job.title
           .toLowerCase()
           .includes(this.searchText.replace(/[^\uAC00-\uD7A3a-zA-Z0-9\s]/g, "").toLowerCase()) &&
-        this.selectedCompanies.includes(job.company) &&
-        (this.selectedTags.length == 0 ||
-          (function (tags: Tag[], compareTags: Tag[]) {
-            for (let i = 0; i < tags.length; i++) {
-              if (compareTags.includes(tags[i]!)) {
-                return true;
-              }
-            }
-            return false;
-          })(this.selectedTags, job.techTags))
+        this.selectedCompanies.includes(job.company)
       );
     });
   };
@@ -57,19 +48,19 @@ export class RootStore {
     });
   };
 
-  addTag = (tag: Tag) => {
-    runInAction(() => {
-      if (!this.selectedTags.includes(tag)) {
-        this.selectedTags = [...this.selectedTags, tag];
-      }
-    });
-  };
+  // addTag = (tag: Tag) => {
+  //   runInAction(() => {
+  //     if (!this.selectedTags.includes(tag)) {
+  //       this.selectedTags = [...this.selectedTags, tag];
+  //     }
+  //   });
+  // };
 
-  removeTag = (givenTag: Tag) => {
-    runInAction(() => {
-      this.selectedTags = this.selectedTags.filter((tag) => tag != givenTag);
-    });
-  };
+  // removeTag = (givenTag: Tag) => {
+  //   runInAction(() => {
+  //     this.selectedTags = this.selectedTags.filter((tag) => tag != givenTag);
+  //   });
+  // };
 
   toggleCompany = (company: Company) => {
     runInAction(() => {

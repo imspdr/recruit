@@ -3,7 +3,6 @@ import { observer } from "mobx-react";
 import { useRootStore } from "@src/store/RootStoreProvider";
 import { useEffect, useRef, useState } from "react";
 import JobCard from "./JobCards";
-import { Job, Tag } from "@src/store/types";
 
 function MainPage() {
   const rootStore = useRootStore();
