@@ -1,6 +1,5 @@
 from selenium import webdriver
 import time
-from crawl.modules.keywords import tech_stack
 from bs4 import BeautifulSoup
 
 def dangn_crawl():
@@ -14,38 +13,24 @@ def dangn_crawl():
     url = "https://about.daangn.com/jobs/"
 
     driver.execute_script(f"window.location.href=\"{url}\"")
-    time.sleep(0.1)
+    time.sleep(1)
     html = driver.page_source
     soup = BeautifulSoup(html, "html.parser")
 
     list_jobs = soup.find("ul", class_="c-jpGEAj")
     jobs_list = list_jobs.find_all("a")
-    job_ids = []
-    for job in jobs_list:
-        job_ids.append(job.get("href"))
+
     ret = []
-    for id in job_ids:
-        detail_url = f"https://about.daangn.com{id}"
-        driver.execute_script(f"window.location.href=\"{detail_url}\"")
-        time.sleep(0.1)
-        html = driver.page_source
-        soup = BeautifulSoup(html, "html.parser")
-        title = soup.find("h1")
-        detail = soup
-
-        tech_tags = []
-        for tag in tech_stack:
-            if tag.lower() in detail.text.lower():
-                tech_tags.append(tag)
-        ret.append({
-            "company": "dangn",
-            "title": title.text,
-            "techTags": tech_tags,
-            "dueDate": "상시모집",
-            "link": detail_url
-        })
-
-
+    for job in jobs_list:
+        try:
+            ret.append({
+                "company": "dangn",
+                "title": job.find("h3").text,
+                "sub": "",
+                "link": "https://about.daangn.com" + job.get("href")
+            })
+        except Exception:
+            continue
     driver.quit()
     return ret
 

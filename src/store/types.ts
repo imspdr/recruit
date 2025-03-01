@@ -1,7 +1,7 @@
 export type Job = {
   company: Company;
   title: string;
-  dueDate: string;
+  sub: string;
   link: string;
 };
 

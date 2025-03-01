@@ -44,7 +44,7 @@ export default function JobCard(props: { job: Job; width: number }) {
             {job.title}
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ fontSize: textFontSize }}>
-            {job.dueDate}
+            {job.sub}
           </Typography>
         </div>
         <img

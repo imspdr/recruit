@@ -1,7 +1,5 @@
 from selenium import webdriver
 import time
-import requests
-from crawl.modules.keywords import tech_stack
 from bs4 import BeautifulSoup
 
 def naver_crawl():
@@ -9,7 +7,6 @@ def naver_crawl():
     options = webdriver.ChromeOptions()
     options.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 ko-KR")
     options.add_argument("--headless")
-    options.add_argument("referer=https://recruit.navercorp.com/rcrt/")
 
     driver = webdriver.Chrome(options=options)
 
@@ -20,7 +17,7 @@ def naver_crawl():
     # 스크롤 실행
     last_height = driver.execute_script("return document.body.scrollHeight")
 
-    time.sleep(0.1)
+    time.sleep(1)
     for _ in range(1000):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(0.1)
@@ -33,53 +30,29 @@ def naver_crawl():
     html = driver.page_source
 
     driver.quit()
-    # User-Agent 설정 (필요 시 변경)
-    HEADERS = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 ko-KR"
-    }
 
     soup = BeautifulSoup(html, "html.parser")
 
-    links = soup.find_all("a", class_="card_link")
-
-    onclick_values = []
-    for link in links:
-        linkval = link.get("onclick")
-        splited = linkval.split("\'")
-        try:
-            if len(splited) > 1:
-                onclick_values.append(splited[1])
-            else:
-                onclick_values.append(linkval.split("(")[1].split(")")[0])
-        except Exception as e:
-            print(e)
-
     ret = []
-    for key in onclick_values:
-        time.sleep(0.1)
-        detail_url = f"https://recruit.navercorp.com/rcrt/view.do?annoId={key}"
+    cards = soup.find_all("li", class_="card_item")
+    for card in cards:
+        try:
+            title = card.find("h4")
+            info = card.find("dl", class_="card_info").text.split("\n")
+            id = card.find("a", class_="card_link").get("onclick")
 
-        response = requests.get(detail_url, headers=HEADERS)
-        soup = BeautifulSoup(response.text, "html.parser")
-        detail = soup.find("div", class_="card_wrap")
-        if detail:
-            title = detail.find("h4", class_="card_title")
-            info_texts = detail.find_all("dd", class_="info_text")
-
-            tech_tags = []
-            for tag in tech_stack:
-                if tag.lower() in detail.text.lower():
-                    tech_tags.append(tag)
+            key = id.split("show('")[1].split("'")[0]
             ret.append({
                 "company": "naver",
                 "title": title.text,
-                "techTags": tech_tags,
-                "dueDate": info_texts[-1].text,
-                "link": detail_url
-            })
+                "sub": info[-2],
+                "link": f"https://recruit.navercorp.com/rcrt/view.do?annoId={key}"})
+        except Exception:
+            continue
 
     return ret
 
 
 if __name__ == "__main__":
-    naver_crawl()
+    for ret in naver_crawl():
+        print(ret)

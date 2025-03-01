@@ -15,12 +15,16 @@ def coupang_crawl():
     job_list = soup.find("div", class_="grid job-listing")
     total_num = job_list.get("data-results")
     cards = job_list.find_all("div", class_="card card-job")
-    ids = []
+    ret = []
     for card in cards:
         try:
             carda = card.find("a")
-            if carda:
-                ids.append(carda.get("href").split("jobs/")[1].split("/")[0])
+            ret.append({
+                "company": "coupang",
+                "title": carda.text,
+                "sub": "",
+                "link": "https://www.coupang.jobs" + carda.get("href")
+            })
         except Exception:
             continue
     rest = int(total_num) - 50
@@ -35,33 +39,18 @@ def coupang_crawl():
             for card in cards:
                 try:
                     carda = card.find("a")
-                    if carda:
-                        ids.append(carda.get("href").split("jobs/")[1].split("/")[0])
+                    ret.append({
+                        "company": "coupang",
+                        "title": carda.text,
+                        "sub": "",
+                        "link": "https://www.coupang.jobs" + carda.get("href")
+                    })
                 except Exception:
                     continue
-
-    ret = []
-    for id in ids:
-        time.sleep(0.1)
-        detail_url = "https://www.coupang.jobs/kr/jobs/" + id
-        response = requests.get(detail_url, headers=HEADERS)
-        soup = BeautifulSoup(response.text, "html.parser")
-        title = soup.find("div", class_="container job-detail").get("data-jobtitle")
-        detail = soup.find("div", class_="jobdetail-grid-wrapper")
-
-        tech_tags = []
-        for tag in tech_stack:
-            if tag.lower() in detail.text.lower():
-                tech_tags.append(tag)
-        ret.append({
-            "company": "coupang",
-            "title": title,
-            "techTags": tech_tags,
-            "dueDate": "상시모집",
-            "link": detail_url
-        })
     return ret
+
 if __name__ == "__main__":
-    coupang_crawl()
+    for ret in coupang_crawl():
+        print(ret)
 
 
