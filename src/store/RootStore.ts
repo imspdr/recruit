@@ -71,4 +71,13 @@ export class RootStore {
       }
     });
   };
+  toggleAllCompany = () => {
+    runInAction(() => {
+      if (this.selectedCompanies.length > 0) {
+        this.selectedCompanies = [];
+      } else {
+        this.selectedCompanies = COMPANYS;
+      }
+    });
+  };
 }
