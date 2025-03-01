@@ -13,11 +13,10 @@ def baemin_crawl():
 
     driver.execute_script(f"window.location.href=\"{url}\"")
 
-    time.sleep(1)
+    time.sleep(3)
     html = driver.page_source
     soup = BeautifulSoup(html, "html.parser")
-    content = soup.find("div", class_="recruit-list")
-    jobs = content.find_all("a", class_="title")
+    jobs = soup.find_all("a", class_="title")
 
     ret = []
 

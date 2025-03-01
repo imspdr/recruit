@@ -13,11 +13,12 @@ def dangn_crawl():
     url = "https://about.daangn.com/jobs/"
 
     driver.execute_script(f"window.location.href=\"{url}\"")
-    time.sleep(1)
+    time.sleep(3)
     html = driver.page_source
     soup = BeautifulSoup(html, "html.parser")
 
     list_jobs = soup.find("ul", class_="c-jpGEAj")
+
     jobs_list = list_jobs.find_all("a")
 
     ret = []

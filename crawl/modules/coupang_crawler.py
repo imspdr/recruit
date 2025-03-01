@@ -1,6 +1,5 @@
 import time
 import requests
-from crawl.modules.keywords import tech_stack
 from bs4 import BeautifulSoup
 
 def coupang_crawl():

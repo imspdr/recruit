@@ -17,7 +17,7 @@ def naver_crawl():
     # 스크롤 실행
     last_height = driver.execute_script("return document.body.scrollHeight")
 
-    time.sleep(1)
+    time.sleep(3)
     for _ in range(1000):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(0.1)

@@ -14,7 +14,7 @@ def kakao_crawl():
     ret = []
     for i in range(1, 5):
         driver.execute_script(f"window.location.href=\"{url + str(i)}\"")
-        time.sleep(1)
+        time.sleep(3)
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
         try:

@@ -13,7 +13,7 @@ def toss_crawl():
     url = "https://toss.im/career/jobs?category=Data%20Analysis%2CData%20Engineering%2CML%2CData%20Managing%2CData%2CBackend%2CFrontend%2CInfra%2CQA%2CFull%20Stack%2CApp%2CEngineering"
 
     driver.execute_script(f"window.location.href=\"{url}\"")
-    time.sleep(1)
+    time.sleep(3)
     html = driver.page_source
     soup = BeautifulSoup(html, "html.parser")
 
