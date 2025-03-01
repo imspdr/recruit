@@ -105,7 +105,7 @@ module.exports = (env) => {
         new CopyWebpackPlugin({
           patterns: [
             {
-              from: path.resolve(__dirname, 'public/imspdrio'), 
+              from: path.resolve(__dirname, 'public/recruit'), 
               to: path.resolve(__dirname, 'docs/'), 
             },
           ],
