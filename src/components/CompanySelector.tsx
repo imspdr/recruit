@@ -33,7 +33,7 @@ function CompanySelector() {
       {COMPANYS.map((company: Company) => {
         return (
           <img
-            src={`/${company}.svg`}
+            src={`/recruit/${company}.svg`}
             css={css`
               border-radius: 10px;
               width: ${rootStore.width / 10 - 10}px;

@@ -48,7 +48,7 @@ export default function JobCard(props: { job: Job; width: number }) {
           </Typography>
         </div>
         <img
-          src={`/${job.company}.svg`}
+          src={`/recruit/${job.company}.svg`}
           css={css`
             border-radius: 10px;
             width: ${titleFontSize * 3}px;
