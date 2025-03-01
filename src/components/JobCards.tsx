@@ -19,7 +19,7 @@ export default function JobCard(props: { job: Job; width: number }) {
         justify-content: space-between;
         border-radius: 10px;
         width: ${width - PADDING * 2}px;
-        height: ${width / 1.6 - PADDING * 2}px;
+        height: ${width / 3 - PADDING * 2}px;
         padding: ${PADDING + (hover ? -1 : 0)}px;
         background-color: var(--paper);
         overflow: hidden;
@@ -56,7 +56,7 @@ export default function JobCard(props: { job: Job; width: number }) {
           `}
         />
       </div>
-      <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, mt: 1 }}>
+      {/* <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, mt: 1 }}>
         {job.techTags.map((tag, index) => (
           <Chip
             key={index}
@@ -66,7 +66,7 @@ export default function JobCard(props: { job: Job; width: number }) {
             sx={{ fontSize: tagFontSize }}
           />
         ))}
-      </Box>
+      </Box> */}
     </div>
   );
 }

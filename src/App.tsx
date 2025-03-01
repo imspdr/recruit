@@ -209,7 +209,7 @@ function App() {
               >
                 <SearchBar />
                 <CompanySelector />
-                <TagSelector />
+                {/* <TagSelector /> */}
               </div>
 
               <Divider

@@ -12,7 +12,6 @@ def dangn_crawl():
     driver = webdriver.Chrome(options=options)
 
     url = "https://about.daangn.com/jobs/"
-    job_ids = []
 
     driver.execute_script(f"window.location.href=\"{url}\"")
     time.sleep(0.1)
