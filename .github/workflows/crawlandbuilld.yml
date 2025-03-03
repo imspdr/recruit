@@ -1,4 +1,7 @@
 name: run-python-crawler-build-page-deploy
+permissions:
+  pages: write
+  id-token: write 
 
 on:
   schedule:
@@ -50,7 +53,7 @@ jobs:
     needs: run-python-and-build
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ github.pages_url }}
 
     steps:
       - name: Deploy to GitHub Pages
