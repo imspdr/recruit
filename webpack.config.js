@@ -82,7 +82,7 @@ module.exports = (env) => {
       devtool: false,
       output: {
         path: path.join(__dirname, "docs"),
-        filename: "main.js",
+        filename: "main.[contenthash].js",
         publicPath: "/recruit/",
       },
       resolve: {
@@ -95,7 +95,7 @@ module.exports = (env) => {
         new HtmlWebpackPlugin({
           template: path.resolve(__dirname, "src/index.ejs"),
           favicon: "imspdr.png",
-          filename: "index.html",
+          filename: "index.[contenthash].html",
         }),
         new HtmlWebpackPlugin({
           template: path.resolve(__dirname, "src/404.html"),
