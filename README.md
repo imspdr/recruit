@@ -15,6 +15,9 @@ python selenium + bs4 패키지를 이용해 네카라쿠배당토 채용 정보
   - python 3.10
   - 자세한 버전은 crawl/requirements.txt
 
-## Blog 
+## Links
 
-- https://blog.naver.com/imspdr/223783499824
+- 개발 블로그 : 
+  - https://blog.naver.com/imspdr/223783499824
+- 배포 링크 : 
+  - https://imspdr.github.io/recruit
