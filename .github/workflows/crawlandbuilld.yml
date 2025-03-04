@@ -1,11 +1,11 @@
 name: run-python-crawler-build-page-deploy
 permissions:
   pages: write
-  id-token: write 
+  id-token: write
 
 on:
   schedule:
-    - cron: "0 9 * * 4"
+    - cron: "0 9 * * 6"
   workflow_dispatch:
 
 jobs:
@@ -35,7 +35,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm install
 
       - name: Build Frontend
         run: npm run build
