@@ -16,12 +16,23 @@ const jobCardContainer = (width: number, padding: number, hover: boolean) => css
   ${hover && "border: 1px solid;"}
 `;
 
+const jobCardInner = css`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+`;
+
+const imgStyle = (titleFontSize: number) => css`
+  border-radius: 10px;
+  width: ${titleFontSize * 3}px;
+  height: ${titleFontSize * 3}px;
+`;
 export default function JobCard(props: { job: Job; width: number }) {
   const [hover, setHover] = useState(false);
   const { job, width } = props;
   const titleFontSize = Math.max(width / 20, 12);
   const textFontSize = Math.max(width / 30, 8);
-  const tagFontSize = Math.max(width / 30, 8);
   const PADDING = 15;
   return (
     <div
@@ -33,14 +44,7 @@ export default function JobCard(props: { job: Job; width: number }) {
         window.open(job.link, "_blank", "noopener,noreferrer");
       }}
     >
-      <div
-        css={css`
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          gap: 10px;
-        `}
-      >
+      <div css={jobCardInner}>
         <div>
           <Typography variant="h6" fontWeight="bold" sx={{ fontSize: titleFontSize }}>
             {job.title}
@@ -49,26 +53,8 @@ export default function JobCard(props: { job: Job; width: number }) {
             {job.sub}
           </Typography>
         </div>
-        <img
-          src={`/recruit/${job.company}.svg`}
-          css={css`
-            border-radius: 10px;
-            width: ${titleFontSize * 3}px;
-            height: ${titleFontSize * 3}px;
-          `}
-        />
+        <img src={`/recruit/${job.company}.svg`} css={imgStyle(titleFontSize)} />
       </div>
-      {/* <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, mt: 1 }}>
-        {job.techTags.map((tag, index) => (
-          <Chip
-            key={index}
-            label={tag}
-            color="success"
-            size="small"
-            sx={{ fontSize: tagFontSize }}
-          />
-        ))}
-      </Box> */}
     </div>
   );
 }
