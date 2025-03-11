@@ -3,6 +3,19 @@ import { Typography, Box, Chip } from "@mui/material";
 import { Job } from "@src/store/types";
 import { useState } from "react";
 
+const jobCardContainer = (width: number, padding: number, hover: boolean) => css`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: ${width - padding * 2}px;
+  height: ${width / 3 - padding * 2}px;
+  padding: ${padding + (hover ? -1 : 0)}px;
+  background-color: var(--paper);
+  overflow: hidden;
+  ${hover && "border: 1px solid;"}
+`;
+
 export default function JobCard(props: { job: Job; width: number }) {
   const [hover, setHover] = useState(false);
   const { job, width } = props;
@@ -13,18 +26,7 @@ export default function JobCard(props: { job: Job; width: number }) {
   return (
     <div
       key={`${job.title}`}
-      css={css`
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border-radius: 10px;
-        width: ${width - PADDING * 2}px;
-        height: ${width / 3 - PADDING * 2}px;
-        padding: ${PADDING + (hover ? -1 : 0)}px;
-        background-color: var(--paper);
-        overflow: hidden;
-        ${hover && "border: 1px solid;"}
-      `}
+      css={jobCardContainer(width, PADDING, hover)}
       onMouseLeave={() => setHover(false)}
       onMouseEnter={() => setHover(true)}
       onClick={() => {
