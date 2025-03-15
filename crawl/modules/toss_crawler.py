@@ -19,7 +19,6 @@ def toss_crawl():
 
     list_jobs = soup.find("div", class_="css-16ht878")
     job_divs = list_jobs.find_all("div")
-    print(job_divs)
     ret = []
     for job in job_divs:
         href_job = job.get("href")
