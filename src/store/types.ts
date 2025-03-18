@@ -11,7 +11,7 @@ export const COMPANYS = [
   "naver",
   "kakao",
   "line",
-  "coupang",
+  //"coupang",
   "baemin",
   "dangn",
   "toss",

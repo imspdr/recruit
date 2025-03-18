@@ -18,7 +18,8 @@ def dangn_crawl():
     soup = BeautifulSoup(html, "html.parser")
 
     list_jobs = soup.find("ul", class_="c-jpGEAj")
-
+    if not list_jobs:
+        return []
     jobs_list = list_jobs.find_all("a")
 
     ret = []

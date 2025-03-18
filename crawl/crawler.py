@@ -21,8 +21,8 @@ for ret in kakao_crawl():
 for ret in line_crawl():
     last_result.append(ret)
 
-for ret in coupang_crawl():
-    last_result.append(ret)
+# for ret in coupang_crawl():
+#     last_result.append(ret)
 
 for ret in baemin_crawl():
     last_result.append(ret)

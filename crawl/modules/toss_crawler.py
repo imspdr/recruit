@@ -18,6 +18,8 @@ def toss_crawl():
     soup = BeautifulSoup(html, "html.parser")
 
     list_jobs = soup.find("div", class_="css-16ht878")
+    if not list_jobs:
+        return []
     job_divs = list_jobs.find_all("div")
     ret = []
     for job in job_divs:

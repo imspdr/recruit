@@ -12,6 +12,8 @@ def coupang_crawl():
     response = requests.get(url, headers=HEADERS)
     soup = BeautifulSoup(response.text, "html.parser")
     job_list = soup.find("div", class_="grid job-listing")
+    if not job_list:
+        return []
     total_num = job_list.get("data-results")
     cards = job_list.find_all("div", class_="card card-job")
     ret = []
