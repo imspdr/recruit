@@ -9,7 +9,7 @@ const jobCardContainer = (width: number, padding: number, hover: boolean) => css
   justify-content: space-between;
   border-radius: 10px;
   width: ${width - padding * 2}px;
-  height: ${width / 4 - padding * 2}px;
+  height: ${width / 3.8 - padding * 2}px;
   padding: ${padding + (hover ? -1 : 0)}px;
   background-color: var(--paper);
   overflow: hidden;
