@@ -9,7 +9,7 @@ const jobCardContainer = (width: number, padding: number, hover: boolean) => css
   justify-content: space-between;
   border-radius: 10px;
   width: ${width - padding * 2}px;
-  height: ${width / 3 - padding * 2}px;
+  height: ${width / 4 - padding * 2}px;
   padding: ${padding + (hover ? -1 : 0)}px;
   background-color: var(--paper);
   overflow: hidden;
@@ -45,14 +45,12 @@ export default function JobCard(props: { job: Job; width: number }) {
       }}
     >
       <div css={jobCardInner}>
-        <div>
-          <Typography variant="h6" fontWeight="bold" sx={{ fontSize: titleFontSize }}>
-            {job.title}
-          </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{ fontSize: textFontSize }}>
+        <Typography variant="h6" fontWeight="bold" sx={{ fontSize: titleFontSize }}>
+          {job.title}
+        </Typography>
+        {/* <Typography variant="body2" color="text.secondary" sx={{ fontSize: textFontSize }}>
             {job.sub}
-          </Typography>
-        </div>
+          </Typography> */}
         <img src={`/recruit/${job.company}.svg`} css={imgStyle(titleFontSize)} />
       </div>
     </div>
