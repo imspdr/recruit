@@ -60,7 +60,7 @@ function MainPage() {
           .getJobs()
           .slice(0, nowLength)
           .map((job) => (
-            <JobCard job={job} width={cardWidth} />
+            <JobCard key={`${job.title}-jobcard`} job={job} width={cardWidth} />
           ))}
       </div>
     </div>
